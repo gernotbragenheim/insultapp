@@ -34,7 +34,7 @@ public class InsultGenerator {
 				rs.close();
 				connection.close();
 			}
-			for (int i=0; i<1000000; i++){
+			for (int i=0; i<100000; i++){
 				System.out.println(i);
 			}
 		} catch (Exception e) {
